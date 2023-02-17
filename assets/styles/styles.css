@@ -1,0 +1,66 @@
+/* Desktop */
+body{
+  margin: 0 0 0 60px;
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  margin-top: 43px;
+  margin-left: 10px;
+  width: 95px;
+  height: 46px;
+}
+
+nav {
+  margin-right: 107px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+}
+
+nav a {
+  padding-top: 46px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+nav a:hover {
+  padding-top: 43px;
+  border-top: #0065FC 3px solid;
+  color: #0065FC;
+}
+
+nav a:focus {
+  padding-top: 43px;
+  border-top: #0065FC 3px solid;
+  color: #0065FC;
+}
+
+.sub-header {
+  margin-top: 38px;
+  margin-left: -5px;
+  font-size: 22.5px;
+}
+
+.sub-header1 {
+  font-size: 16px;
+  margin-top: -8px;
+}
+
+.search_bar {
+  margin-top: 19px;
+  background-color: #f2f2f2;
+  height: 50px;
+  width: 370px;
+  margin-left: -1px;
+}
