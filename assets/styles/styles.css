@@ -61,6 +61,33 @@ nav a:focus {
   margin-top: 19px;
   background-color: #f2f2f2;
   height: 50px;
-  width: 370px;
-  margin-left: -1px;
+  width: 422px;
+  margin-left: -6px;
+  border-radius: 17px;
+}
+
+.search_bar input {
+  padding-left: 16px;
+  font-size: 19px;
+  height: 50px;
+  margin-left: 16px;
+  width: 235px;
+  border: none;
+}
+
+.search_bar button {
+  color: white;
+  font-size: 19px;
+  height: 50px;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  margin-left: -5px;
+  width: 134px;
+  border: none;
+  background-color: #0065FC;
+}
+
+.search_bar i {
+  margin-left: 19px;
+  font-size: 17.5px;
 }
