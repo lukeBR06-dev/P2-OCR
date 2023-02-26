@@ -136,10 +136,18 @@ nav a:focus {
   flex-direction: row;
   margin-top: 15px;
   margin-left: 8px;
+  font-size: 16px;
 }
  .sub-filtres i {
   color: #0065FC;
   font-size: 14px;
   border: solid #f2f2f2 2px;
-  padding: 1px;
- }
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  border-radius: 50px;
+  height: 4px;
+  margin-top: 13px;
+  margin-left: -11px;
+  margin-right: 8px;
+}
