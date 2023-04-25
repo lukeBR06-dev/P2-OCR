@@ -4,6 +4,11 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -137,7 +142,13 @@ nav a:focus {
   margin-top: 15px;
   margin-left: 8px;
   font-size: 16px;
+  align-items: center;
 }
+
+.sub-filtres-text {
+  margin-top: 14px;
+}
+
  .sub-filtres i {
   color: #0065FC;
   font-size: 14px;
